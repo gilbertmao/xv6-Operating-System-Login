@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/asm/asm.h
+
+../include/memlayout.h
+
+../include/mmu.h
+
+../include/param.h
+
+/xv6/build/kernel/gen/vectors.S
+
+/xv6/kernel/src/asm/entry.S
+asm/asm.h
+/xv6/kernel/src/asm/asm/asm.h
+memlayout.h
+/xv6/kernel/src/asm/memlayout.h
+mmu.h
+/xv6/kernel/src/asm/mmu.h
+param.h
+/xv6/kernel/src/asm/param.h
+
+/xv6/kernel/src/asm/swtch.S
+
+/xv6/kernel/src/asm/trapasm.S
+mmu.h
+/xv6/kernel/src/asm/mmu.h
+

@@ -1,0 +1,1 @@
+ld -m elf_i386 -N -e main -Ttext 0 CMakeFiles/_test_sha256.dir/src/crypto/test/test_sha256.c.o CMakeFiles/ulib.dir/asm/usys.S.o CMakeFiles/ulib.dir/src/ulib.c.o CMakeFiles/ulib.dir/src/umalloc.c.o CMakeFiles/ulib.dir/src/printf.c.o CMakeFiles/ulib.dir/src/crypto/aes256.c.o CMakeFiles/ulib.dir/src/crypto/sha256.c.o CMakeFiles/ulib.dir/src/login/login_lib.c.o -o _test_sha256 

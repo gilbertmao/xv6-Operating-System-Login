@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/asm/asm.h
+
+../include/memlayout.h
+
+../include/mmu.h
+
+/xv6/bootblock/bootasm.S
+asm/asm.h
+/xv6/bootblock/asm/asm.h
+memlayout.h
+/xv6/bootblock/memlayout.h
+mmu.h
+/xv6/bootblock/mmu.h
+

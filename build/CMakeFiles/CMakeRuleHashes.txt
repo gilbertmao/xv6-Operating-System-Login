@@ -1,0 +1,21 @@
+# Hashes of file build rules.
+061784eb31b40683af2c55f295c339e8 CMakeFiles/image
+8ee9a76c4d7bbb37283fa84ce46a797c bootblock/CMakeFiles/buildboot
+ef60d85c34baa52b0291f9c70af51b1e bootblock/bootblock
+f8b40cbee7564b6b132337ec9c68307a bootblock/bootblock.asm
+93b2504ed8a9511f06a02c50d4798ace bootblock/bootblock.obj
+54e3137c069135aa15ec670fcd9304f6 kernel/CMakeFiles/buildkern
+592bb4e377d2b148421606663f5e8a4e kernel/entryother
+cb0d8d26019cbd59bb3b3b12fb1b2025 kernel/entryother.asm
+6371d4cc0bfdde99c49e8e2bd908337f kernel/entryother.obj
+545ae63bb5684be42379aa807ac75035 kernel/gen/vectors.S
+458acc3a3dbac22f3d8aa9f63efcb0fc kernel/initcode
+92fb8eb40f46728f455c97a5a708eeed kernel/initcode.asm
+1030dab924fbb780066fe449402d7eb0 kernel/initcode.obj
+0c0937eebb2b14bee56d87f02bcf2f26 kernel/kernel
+70f9d01dff94a741fb6ad987e317f1d7 kernel/kernel.asm
+0c57b2997114d5d9e9934bc4b6083612 kernel/kernel.sym
+d53eff23c5d94f816bcee3e5211e1b0b user/CMakeFiles/makeuserfs
+30935bf9311c0a5b860a0e5df53aa527 user/fs.img
+7c1c86e9c411932b0d313d8641471573 user/login_fs.img
+742708ac6dcb9b781828872c5b8cedc0 xv6.img

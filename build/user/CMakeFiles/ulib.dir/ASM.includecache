@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/syscall.h
+
+../include/traps.h
+
+/xv6/user/asm/usys.S
+syscall.h
+/xv6/user/asm/syscall.h
+traps.h
+/xv6/user/asm/traps.h
+

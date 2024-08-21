@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/syscall.h
+
+../include/traps.h
+
+/xv6/kernel/src/asm/initcode.S
+syscall.h
+/xv6/kernel/src/asm/syscall.h
+traps.h
+/xv6/kernel/src/asm/traps.h
+

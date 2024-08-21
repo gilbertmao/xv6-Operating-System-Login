@@ -1,0 +1,257 @@
+[
+{
+  "directory": "/xv6/build/tools",
+  "command": "/usr/bin/cc    -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -O0 -ggdb3 -o CMakeFiles/mkfs.dir/mkfs.c.o -c /xv6/tools/mkfs.c",
+  "file": "/xv6/tools/mkfs.c"
+},
+{
+  "directory": "/xv6/build/bootblock",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/bootblock/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -nostdinc -m32 -g -o CMakeFiles/bootblockobjs.dir/bootasm.S.o -c /xv6/bootblock/bootasm.S",
+  "file": "/xv6/bootblock/bootasm.S"
+},
+{
+  "directory": "/xv6/build/bootblock",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/bootblock/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -nostdinc -m32 -Os -ggdb3 -std=gnu11 -o CMakeFiles/bootblockobjs.dir/bootmain.c.o -c /xv6/bootblock/bootmain.c",
+  "file": "/xv6/bootblock/bootmain.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -g -o CMakeFiles/vectorobj.dir/gen/vectors.S.o -c /xv6/build/kernel/gen/vectors.S",
+  "file": "/xv6/build/kernel/gen/vectors.S"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -g -o CMakeFiles/kernelobjs.dir/src/asm/entry.S.o -c /xv6/kernel/src/asm/entry.S",
+  "file": "/xv6/kernel/src/asm/entry.S"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -g -o CMakeFiles/kernelobjs.dir/src/asm/swtch.S.o -c /xv6/kernel/src/asm/swtch.S",
+  "file": "/xv6/kernel/src/asm/swtch.S"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -g -o CMakeFiles/kernelobjs.dir/src/asm/trapasm.S.o -c /xv6/kernel/src/asm/trapasm.S",
+  "file": "/xv6/kernel/src/asm/trapasm.S"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -g -o CMakeFiles/kernelobjs.dir/gen/vectors.S.o -c /xv6/build/kernel/gen/vectors.S",
+  "file": "/xv6/build/kernel/gen/vectors.S"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/bio.c.o -c /xv6/kernel/src/bio.c",
+  "file": "/xv6/kernel/src/bio.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/console.c.o -c /xv6/kernel/src/console.c",
+  "file": "/xv6/kernel/src/console.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/exec.c.o -c /xv6/kernel/src/exec.c",
+  "file": "/xv6/kernel/src/exec.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/file.c.o -c /xv6/kernel/src/file.c",
+  "file": "/xv6/kernel/src/file.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/fs.c.o -c /xv6/kernel/src/fs.c",
+  "file": "/xv6/kernel/src/fs.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/ide.c.o -c /xv6/kernel/src/ide.c",
+  "file": "/xv6/kernel/src/ide.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/ioapic.c.o -c /xv6/kernel/src/ioapic.c",
+  "file": "/xv6/kernel/src/ioapic.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/kalloc.c.o -c /xv6/kernel/src/kalloc.c",
+  "file": "/xv6/kernel/src/kalloc.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/kbd.c.o -c /xv6/kernel/src/kbd.c",
+  "file": "/xv6/kernel/src/kbd.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/lab4_ag.c.o -c /xv6/kernel/src/lab4_ag.c",
+  "file": "/xv6/kernel/src/lab4_ag.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/lapic.c.o -c /xv6/kernel/src/lapic.c",
+  "file": "/xv6/kernel/src/lapic.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/log.c.o -c /xv6/kernel/src/log.c",
+  "file": "/xv6/kernel/src/log.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/main.c.o -c /xv6/kernel/src/main.c",
+  "file": "/xv6/kernel/src/main.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/mp.c.o -c /xv6/kernel/src/mp.c",
+  "file": "/xv6/kernel/src/mp.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/picirq.c.o -c /xv6/kernel/src/picirq.c",
+  "file": "/xv6/kernel/src/picirq.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/pipe.c.o -c /xv6/kernel/src/pipe.c",
+  "file": "/xv6/kernel/src/pipe.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/proc.c.o -c /xv6/kernel/src/proc.c",
+  "file": "/xv6/kernel/src/proc.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/sleeplock.c.o -c /xv6/kernel/src/sleeplock.c",
+  "file": "/xv6/kernel/src/sleeplock.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/spinlock.c.o -c /xv6/kernel/src/spinlock.c",
+  "file": "/xv6/kernel/src/spinlock.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/string.c.o -c /xv6/kernel/src/string.c",
+  "file": "/xv6/kernel/src/string.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/syscall.c.o -c /xv6/kernel/src/syscall.c",
+  "file": "/xv6/kernel/src/syscall.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/sysfile.c.o -c /xv6/kernel/src/sysfile.c",
+  "file": "/xv6/kernel/src/sysfile.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/sysproc.c.o -c /xv6/kernel/src/sysproc.c",
+  "file": "/xv6/kernel/src/sysproc.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/trap.c.o -c /xv6/kernel/src/trap.c",
+  "file": "/xv6/kernel/src/trap.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/uart.c.o -c /xv6/kernel/src/uart.c",
+  "file": "/xv6/kernel/src/uart.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -O0 -ggdb3 -std=gnu11 -o CMakeFiles/kernelobjs.dir/src/vm.c.o -c /xv6/kernel/src/vm.c",
+  "file": "/xv6/kernel/src/vm.c"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -g -o CMakeFiles/entryotherobjs.dir/src/asm/entryother.S.o -c /xv6/kernel/src/asm/entryother.S",
+  "file": "/xv6/kernel/src/asm/entryother.S"
+},
+{
+  "directory": "/xv6/build/kernel",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/kernel/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -fno-pic -m32 -g -o CMakeFiles/initcodeobjs.dir/src/asm/initcode.S.o -c /xv6/kernel/src/asm/initcode.S",
+  "file": "/xv6/kernel/src/asm/initcode.S"
+},
+{
+  "directory": "/xv6/build/user",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/user/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -nostdinc -nostartfiles -nodefaultlibs -fno-pic -m32 -g -o CMakeFiles/ulib.dir/asm/usys.S.o -c /xv6/user/asm/usys.S",
+  "file": "/xv6/user/asm/usys.S"
+},
+{
+  "directory": "/xv6/build/user",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/user/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -nostdinc -nostartfiles -nodefaultlibs -fno-pic -m32 -O0 -ggdb3 -o CMakeFiles/ulib.dir/src/ulib.c.o -c /xv6/user/src/ulib.c",
+  "file": "/xv6/user/src/ulib.c"
+},
+{
+  "directory": "/xv6/build/user",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/user/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -nostdinc -nostartfiles -nodefaultlibs -fno-pic -m32 -O0 -ggdb3 -o CMakeFiles/ulib.dir/src/umalloc.c.o -c /xv6/user/src/umalloc.c",
+  "file": "/xv6/user/src/umalloc.c"
+},
+{
+  "directory": "/xv6/build/user",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/user/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -nostdinc -nostartfiles -nodefaultlibs -fno-pic -m32 -O0 -ggdb3 -o CMakeFiles/ulib.dir/src/printf.c.o -c /xv6/user/src/printf.c",
+  "file": "/xv6/user/src/printf.c"
+},
+{
+  "directory": "/xv6/build/user",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/user/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -nostdinc -nostartfiles -nodefaultlibs -fno-pic -m32 -O0 -ggdb3 -o CMakeFiles/ulib.dir/src/crypto/aes256.c.o -c /xv6/user/src/crypto/aes256.c",
+  "file": "/xv6/user/src/crypto/aes256.c"
+},
+{
+  "directory": "/xv6/build/user",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/user/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -nostdinc -nostartfiles -nodefaultlibs -fno-pic -m32 -O0 -ggdb3 -o CMakeFiles/ulib.dir/src/crypto/sha256.c.o -c /xv6/user/src/crypto/sha256.c",
+  "file": "/xv6/user/src/crypto/sha256.c"
+},
+{
+  "directory": "/xv6/build/user",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/user/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -nostdinc -nostartfiles -nodefaultlibs -fno-pic -m32 -O0 -ggdb3 -o CMakeFiles/ulib.dir/src/login/login_lib.c.o -c /xv6/user/src/login/login_lib.c",
+  "file": "/xv6/user/src/login/login_lib.c"
+},
+{
+  "directory": "/xv6/build/user",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/user/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -nostdinc -nostartfiles -nodefaultlibs -fno-pic -m32 -O0 -ggdb3 -o CMakeFiles/_sh.dir/src/sh.c.o -c /xv6/user/src/sh.c",
+  "file": "/xv6/user/src/sh.c"
+},
+{
+  "directory": "/xv6/build/user",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/user/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -nostdinc -nostartfiles -nodefaultlibs -fno-pic -m32 -O0 -ggdb3 -o CMakeFiles/_ls.dir/src/ls.c.o -c /xv6/user/src/ls.c",
+  "file": "/xv6/user/src/ls.c"
+},
+{
+  "directory": "/xv6/build/user",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/user/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -nostdinc -nostartfiles -nodefaultlibs -fno-pic -m32 -O0 -ggdb3 -o CMakeFiles/_cat.dir/src/cat.c.o -c /xv6/user/src/cat.c",
+  "file": "/xv6/user/src/cat.c"
+},
+{
+  "directory": "/xv6/build/user",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/user/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -nostdinc -nostartfiles -nodefaultlibs -fno-pic -m32 -O0 -ggdb3 -o CMakeFiles/_test_sha256.dir/src/crypto/test/test_sha256.c.o -c /xv6/user/src/crypto/test/test_sha256.c",
+  "file": "/xv6/user/src/crypto/test/test_sha256.c"
+},
+{
+  "directory": "/xv6/build/user",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/user/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -nostdinc -nostartfiles -nodefaultlibs -fno-pic -m32 -O0 -ggdb3 -o CMakeFiles/_test_aes256.dir/src/crypto/test/test_aes256.c.o -c /xv6/user/src/crypto/test/test_aes256.c",
+  "file": "/xv6/user/src/crypto/test/test_aes256.c"
+},
+{
+  "directory": "/xv6/build/user",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/user/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -nostdinc -nostartfiles -nodefaultlibs -fno-pic -m32 -O0 -ggdb3 -o CMakeFiles/_login_login_init.dir/src/login/login_init.c.o -c /xv6/user/src/login/login_init.c",
+  "file": "/xv6/user/src/login/login_init.c"
+},
+{
+  "directory": "/xv6/build/user",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/user/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -nostdinc -nostartfiles -nodefaultlibs -fno-pic -m32 -O0 -ggdb3 -o CMakeFiles/_login_login.dir/src/login/login.c.o -c /xv6/user/src/login/login.c",
+  "file": "/xv6/user/src/login/login.c"
+},
+{
+  "directory": "/xv6/build/user",
+  "command": "/usr/bin/cc  -I/xv6/include -I/xv6/user/include  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -static -fno-builtin -nostdinc -nostartfiles -nodefaultlibs -fno-pic -m32 -O0 -ggdb3 -o CMakeFiles/_default_init.dir/src/init.c.o -c /xv6/user/src/init.c",
+  "file": "/xv6/user/src/init.c"
+}
+]

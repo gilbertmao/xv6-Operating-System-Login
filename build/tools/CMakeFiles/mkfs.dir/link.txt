@@ -1,0 +1,1 @@
+/usr/bin/cc  -fno-strict-aliasing -Wall -ggdb -Werror -fno-omit-frame-pointer -fno-stack-protector -O0 -ggdb3 CMakeFiles/mkfs.dir/mkfs.c.o -o mkfs 
