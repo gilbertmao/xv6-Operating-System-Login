@@ -1,5 +1,5 @@
 <!-- Added -->
-# Lab 4 -- User-Isolation, File Permissions and Large File Support
+# User-Isolation, File Permissions and Large File Support
 
 Create a simple (but realistic) user system, a file permission system, a
 a user-space login system, and add support for large files.
